@@ -1,7 +1,8 @@
 
 import { withLDConsumer } from "launchdarkly-react-client-sdk";
 import { Widget, addResponseMessage } from 'react-chat-widget';
-import 'react-chat-widget/lib/styles.css';
+//import 'react-chat-widget/lib/styles.css';
+import "./../util/chatWidgetStyles.css"
 import axios from 'axios';
 import niceRobot from "./../images/happyRobot.png";
 import meanRobot from "./../images/meanRobot.png";
