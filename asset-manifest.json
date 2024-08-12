@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.css": "/react_qr_app/static/css/main.9cc7f576.chunk.css",
-    "main.js": "/react_qr_app/static/js/main.4aa56868.chunk.js",
-    "main.js.map": "/react_qr_app/static/js/main.4aa56868.chunk.js.map",
+    "main.css": "/react_qr_app/static/css/main.0057c86a.chunk.css",
+    "main.js": "/react_qr_app/static/js/main.efe70e4d.chunk.js",
+    "main.js.map": "/react_qr_app/static/js/main.efe70e4d.chunk.js.map",
     "runtime-main.js": "/react_qr_app/static/js/runtime-main.93a3d2e7.js",
     "runtime-main.js.map": "/react_qr_app/static/js/runtime-main.93a3d2e7.js.map",
-    "static/css/2.785e1cbc.chunk.css": "/react_qr_app/static/css/2.785e1cbc.chunk.css",
-    "static/js/2.3c717645.chunk.js": "/react_qr_app/static/js/2.3c717645.chunk.js",
-    "static/js/2.3c717645.chunk.js.map": "/react_qr_app/static/js/2.3c717645.chunk.js.map",
+    "static/js/2.eda0048b.chunk.js": "/react_qr_app/static/js/2.eda0048b.chunk.js",
+    "static/js/2.eda0048b.chunk.js.map": "/react_qr_app/static/js/2.eda0048b.chunk.js.map",
     "static/js/3.0a12341b.chunk.js": "/react_qr_app/static/js/3.0a12341b.chunk.js",
     "static/js/3.0a12341b.chunk.js.map": "/react_qr_app/static/js/3.0a12341b.chunk.js.map",
     "index.html": "/react_qr_app/index.html",
-    "static/css/2.785e1cbc.chunk.css.map": "/react_qr_app/static/css/2.785e1cbc.chunk.css.map",
-    "static/css/main.9cc7f576.chunk.css.map": "/react_qr_app/static/css/main.9cc7f576.chunk.css.map",
-    "static/js/2.3c717645.chunk.js.LICENSE.txt": "/react_qr_app/static/js/2.3c717645.chunk.js.LICENSE.txt",
+    "static/css/main.0057c86a.chunk.css.map": "/react_qr_app/static/css/main.0057c86a.chunk.css.map",
+    "static/js/2.eda0048b.chunk.js.LICENSE.txt": "/react_qr_app/static/js/2.eda0048b.chunk.js.LICENSE.txt",
     "static/media/astronaut.1d752285.png": "/react_qr_app/static/media/astronaut.1d752285.png",
     "static/media/astronaut_old.09554e17.png": "/react_qr_app/static/media/astronaut_old.09554e17.png",
     "static/media/heart.3d7839e5.svg": "/react_qr_app/static/media/heart.3d7839e5.svg",
@@ -22,9 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.93a3d2e7.js",
-    "static/css/2.785e1cbc.chunk.css",
-    "static/js/2.3c717645.chunk.js",
-    "static/css/main.9cc7f576.chunk.css",
-    "static/js/main.4aa56868.chunk.js"
+    "static/js/2.eda0048b.chunk.js",
+    "static/css/main.0057c86a.chunk.css",
+    "static/js/main.efe70e4d.chunk.js"
   ]
 }
