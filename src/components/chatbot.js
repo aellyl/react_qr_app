@@ -48,8 +48,19 @@ const chatbot = ({ flags, ldClient }) => {
     if (personality === 'placeholder') {
       return "Error: Bot not found."
     } else {
-      const response = await axios.get(url);
-      return response.data.answer;
+      try{
+        const response = await axios.get(url)
+      
+        return response.data.answer;
+
+      } catch (error)
+      {
+        console.log(error.response)
+        
+        return error.response.data.message;
+      }
+      
+     
     }
     
   }
