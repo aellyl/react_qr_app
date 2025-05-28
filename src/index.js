@@ -9,7 +9,7 @@ import getUserId from "./util/getUserId";
 import Observability from "@launchdarkly/observability";
 import SessionReplay from '@launchdarkly/session-replay'
 
-const CLIENTKEY = "6318fe8d4c9844119bcd63f6";
+const CLIENTKEY = "6318fe8d4c9844119bcd63f7";
 const OBSERVABILITY_PROJECT_ID = "g5wkvymp";
 
 let id = getUserId();
