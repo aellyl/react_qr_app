@@ -9,7 +9,7 @@ module.exports = {
   output: {
     filename: "bundle.[contenthash].js",
     path: path.resolve(__dirname, "dist"),
-    publicPath: process.env.PUBLIC_URL || "/", // supports GitHub Pages + dev
+    publicPath: (process.env.PUBLIC_URL || "/") + "/", // supports GitHub Pages + dev
     clean: true,
   },
   devtool: isProd ? false : "source-map",
