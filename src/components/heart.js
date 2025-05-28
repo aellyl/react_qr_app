@@ -7,7 +7,7 @@ const showHeart = ({ flags }) => {
   // See this page for details: https://docs.launchdarkly.com/sdk/client-side/react/react-web#flag-keys
   return flags.releaseHeart ? (
   <div>
-    <img src={heart} className="heart" alt="heart" />
+    <img src={heart} className="heart" loading="lazy" alt="heart"/>
   </div>
   ) : (
   <div />

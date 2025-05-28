@@ -6,8 +6,11 @@ import reportWebVitals from "./reportWebVitals";
 import { asyncWithLDProvider } from "launchdarkly-react-client-sdk";
 import { deviceType, osName } from "react-device-detect";
 import getUserId from "./util/getUserId";
+import Observability from "@launchdarkly/observability";
+import SessionReplay from '@launchdarkly/session-replay'
 
 const CLIENTKEY = "6318fe8d4c9844119bcd63f6";
+const OBSERVABILITY_PROJECT_ID = "g5wkvymp";
 
 let id = getUserId();
 
@@ -21,6 +24,17 @@ let id = getUserId();
         device: deviceType,
         operatingSystem: osName,
       },
+    },
+    options: {
+      plugins: [
+    new Observability(OBSERVABILITY_PROJECT_ID, {
+      networkRecording: {
+        enabled: true,
+        recordHeadersAndBody: true
+      }
+    }),
+    new SessionReplay(OBSERVABILITY_PROJECT_ID)
+  ]
     },
   });
 
